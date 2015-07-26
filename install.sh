@@ -58,12 +58,6 @@ brew link --overwrite php${PHP_VERSION}
 echo '✩✩✩✩ Memcached ✩✩✩✩'
 brew install php${PHP_VERSION}-memcached
 
-echo '✩✩✩✩ Redis ✩✩✩✩'
-brew install redis php${PHP_VERSION}-redis
-
-echo '✩✩✩✩ Solr ✩✩✩✩'
-brew install solr
-
 echo '✩✩✩✩ Xdebug ✩✩✩✩'
 brew install php${PHP_VERSION}-xdebug
 
