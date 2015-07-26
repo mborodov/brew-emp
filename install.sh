@@ -95,9 +95,6 @@ curl -Lo /usr/local/etc/nginx/sites-available/xhprof.local https://raw.github.co
 ln -s /usr/local/etc/nginx/sites-available/xhprof.local /usr/local/etc/nginx/sites-enabled/xhprof.local
 sudo echo '127.0.0.1 xhprof.local' >>  /etc/hosts
 
-echo '✩✩✩✩ Drush ✩✩✩✩'
-brew install drush
-
 echo '✩✩✩✩ Brew-emp ✩✩✩✩'
 curl -Lo /usr/local/bin/brew-emp https://raw.github.com/mrded/brew-emp/master/bin/brew-emp
 chmod 755 /usr/local/bin/brew-emp
